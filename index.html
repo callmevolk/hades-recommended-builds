@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hades Recommended Builds</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,20 +16,136 @@
         </div>
     </header>
     <main>
-        <select id="weapons" name="weapons">
+        <select id="weapons" name="weapons" onchange="weaponSelect(this)">
             <option value="" disabled selected>Choose a weapon</option>
-            <option value="volvo">Heart-Seeking Bow</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
+            <option value="blade">Stygian Blade</option>
+            <option value="spear">Eternal Spear</option>
+            <option value="shield">Shield of Chaos</option>
+            <option value="bow">Heart-Seeking Bow</option>
+            <option value="fists">Twin Fists of Malphon</option>
+            <option value="rail">Adamant Rail</option>
         </select>
 
-        <div class="aspects">
-            <button class="button--aspects">Zagreus</button>
-            <button class="button--aspects">Chiron</button>
-            <button class="button--aspects">Hera</button>
-            <button class="button--aspects">Ljubisa</button>
+        <!-- BOW -->
+        <div class="aspects aspects--bow">
+            <div class="button__container">
+                <img src="img/bow-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/bow-chiron.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Chiron</button>
+            </div>
+            <div class="button__container">
+                <img src="img/bow-hera.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Hera</button>
+            </div>
+            <div class="button__container">
+                <img src="img/bow-rama.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Rama</button>
+            </div>
+        </div>
+
+        <!-- BLADE -->
+        <div class="aspects aspects--blade">
+            <div class="button__container">
+                <img src="img/blade-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/blade-nemesis.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Nemesis</button>
+            </div>
+            <div class="button__container">
+                <img src="img/blade-poseidon.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Poseidon</button>
+            </div>
+            <div class="button__container">
+                <img src="img/blade-arthur.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Arthur</button>
+            </div>
+        </div>
+
+        <!-- SHIELD -->
+        <div class="aspects aspects--shield">
+            <div class="button__container">
+                <img src="img/shield-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/shield-chaos.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Chaos</button>
+            </div>
+            <div class="button__container">
+                <img src="img/shield-zeus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zeus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/shield-beowulf.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Beowulf</button>
+            </div>
+        </div>
+
+        <!-- SPEAR -->
+        <div class="aspects aspects--spear">
+            <div class="button__container">
+                <img src="img/spear-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/spear-achilles.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Achilles</button>
+            </div>
+            <div class="button__container">
+                <img src="img/spear-hades.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Hades</button>
+            </div>
+            <div class="button__container">
+                <img src="img/spear-guanyu.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Guan Yu</button>
+            </div>
+        </div>
+
+        <!-- RAIL -->
+        <div class="aspects aspects--rail">
+            <div class="button__container">
+                <img src="img/rail-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/rail-eris.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Eris</button>
+            </div>
+            <div class="button__container">
+                <img src="img/rail-hestia.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Hestia</button>
+            </div>
+            <div class="button__container">
+                <img src="img/rail-lucifer.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Lucifer</button>
+            </div>
+        </div>
+
+        <!-- FISTS -->
+        <div class="aspects aspects--fists">
+            <div class="button__container">
+                <img src="img/fists-zagreus.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Zagreus</button>
+            </div>
+            <div class="button__container">
+                <img src="img/fists-talos.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Talos</button>
+            </div>
+            <div class="button__container">
+                <img src="img/fists-demeter.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Demeter</button>
+            </div>
+            <div class="button__container">
+                <img src="img/fists-gilgamesh.png" alt="" class="aspect__icon">
+                <button class="button--aspects">Aspect of Gilgamesh</button>
+            </div>
         </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>

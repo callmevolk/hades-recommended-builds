@@ -1,0 +1,67 @@
+.aspects {
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: space-evenly;
+}
+
+.button__container {
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.button--aspects {
+    height: 60px;
+    width: 180px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-left: 40px;
+    color: #f8f8f8;
+    border-top: 3px solid #464942;
+    cursor: pointer;
+    transition: background-color .1s;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.button__container:hover .button--aspects {
+    background: rgb(19, 19, 18);
+    transition: background-color .1s;
+}
+
+.button__container:active .button--aspects, .aspect--active {
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, rgb(247, 245, 122), rgb(214, 186, 27));
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    background: linear-gradient(125deg, rgba(0,0,0,1) 0%, rgba(24,24,22,1) 60%, rgba(24,24,22,1) 100%);
+}
+
+.aspect__icon {
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+.aspects--bow,
+.aspects--blade,
+.aspects--spear,
+.aspects--rail,
+.aspects--shield,
+.aspects--fists {
+    display: none;
+}
+
+.aspects--active {
+    display: flex;
+}
