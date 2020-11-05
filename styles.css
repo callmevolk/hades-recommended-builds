@@ -1,5 +1,5 @@
 @import './aspects.css';
-
+@import './build.css';
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -23,9 +23,9 @@ header {
     font-family: fantasy;
     color: beige;
     position: absolute;
-    top: 70%;
+    bottom: 40px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
     text-shadow: darkgoldenrod 2px 5px 1px;
 }
 
-p {
+header p {
     font-size: 20px;
     letter-spacing: 2px;
     text-shadow: darkgoldenrod 1px 2px 1px;
@@ -42,7 +42,7 @@ p {
 
 main {
     text-align: center;
-    background-color: #140f0f;
+    background-color: #232121;
     padding-top: 60px;
     padding-bottom: 60px;
     font-family: 'Sansita', sans-serif;
@@ -57,7 +57,7 @@ main {
 select {
     outline: none;
     border: 1px black solid;
-    height: 50px;
+    height: 60px;
     font-size: 18px;
     padding: 15px;
     margin-bottom: 60px;

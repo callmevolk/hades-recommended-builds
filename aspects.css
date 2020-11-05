@@ -1,6 +1,5 @@
 .aspects {
     text-align: left;
-    width: 75%;
     margin: 0 auto;
     display: flex;
     /* flex-direction: column;
@@ -16,8 +15,8 @@
 }
 
 .button--aspects {
-    height: 60px;
-    width: 180px;
+    height: 70px;
+    width: 220px;
     outline: none;
     border: none;
     font-size: 15px;
@@ -27,7 +26,7 @@
     cursor: pointer;
     transition: background-color .1s;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .button__container:hover .button--aspects {
@@ -47,7 +46,7 @@
 }
 
 .aspect__icon {
-    height: 80px;
+    height: 90px;
     position: absolute;
     left: 0;
     top: -10px;
@@ -64,4 +63,5 @@
 
 .aspects--active {
     display: flex;
+    flex-wrap: wrap;
 }
