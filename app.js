@@ -645,6 +645,131 @@ const buildArray = [
         ],
         funAlternative: 'Go for Zeus Special and focus on Jolted damage. You will want to take Sudden Rush and Zeus Special as soon as possible, and trust me when I say that the rest doesn\'t even matter. Take Athena\'s Dash to add an extra measure of OP.'
     },
+    {
+        weapon: 'Shield of Chaos',
+        title: 'Aspect of Zeus',
+        playstyle: 'Aspect of Zeus might be one of the hardest aspects to play with because its playstyle is unlike any other. The gist of your strategy should be throwing your Special and let it stack any kind of Curse Status you can come across while positioning and shielding yourself from foes using your Attack. There\'s really a ton of builds you can try this weapon with, but we\'re going with Ares & Athena combo.',
+        startingKeepsake: 'Blood Filled Vial (Ares\' keepsake) Special as early as possible.',
+        mirror: 'If you think you\'re going to be able to take Athena\'s Exposed Curse, go for Privileged Status.',
+        boons: [
+            {
+                name: 'Curse of Pain (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Doom.',
+                explaination: 'This boon is your main damage output. Your Special will be doing all the work for you, and having it stack Doom effects is going to help out a lot.'
+            },
+            {
+                name: 'Impending Doom (Ares)', 
+                img: './img/impending-doom.png',
+                prerequisites: 'Curse of Agony, Curse of Pain, or Curse of Vengeance.',
+                effect: 'Your Doom effects deal more damage, after +0.5 Sec.',
+                explaination: 'Pretty standard if you\'re running any Doom-focused build.'
+            },
+            {
+                name: 'Divine Strike (Athena)', 
+                img: './img/divine-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack is stronger, and can Deflect.',
+                explaination: 'This is a great boon for any shield build. You can just sit in a corner and hold your Attack to not only negate damage from foes, but mitigate it and Deflect it back to them.'
+            },
+            {
+                name: 'Merciful End (Ares & Athena Duo)', 
+                img: './img/merciful-end.png', 
+                prerequisites: 'One of each of these Ares and Athena boons: <br />Ares: Curse of Agony or Curse of Pain. <br />Athena: Divine Flourish or Divine Strike.',
+                effect: 'Your attacks that can Deflect immediately activate Doom effects. Doom Combo Damage: 40.',
+                explaination: 'Although you can manipulate where your Special will go to some extent, you will find that most of the time, you won\'t be dealing damage to the same foe with your Attack and Special. Thanks to this duo boon, you will be able to deal Doom damage to everything that touches you or your Special.'
+            },
+            {
+                name: 'Swift Flourish (Hermes)', 
+                img: './img/swift-flourish.png', 
+                prerequisites: 'none',
+                effect: 'Your Special is +X% faster.',
+                explaination: 'Every Hermes boon is welcome.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Sudden Rush',
+                img: './img/sudden-rush.png',
+                effect: 'Your Bull Rush charges much faster.',
+                explaination: 'Good pickup for any shield build that uses your Bull Rush. It is not mandatory though, you can play this build without using Bull Rush even once.'
+            },
+            {
+                name: 'Explosive Return',
+                img: './img/explosive-return.png',
+                effect: 'Your Special deals 50 damage to nearby foes when you catch it.',
+                explaination: 'Catching your Special leaves you vulnerable, as it can interrupt your Attack charge. However, since it comes back to you automatically, you have to pick it up. Having it deal damage while you pick it up patches the downside of it interrupting you.'
+            }
+        ],
+        funAlternative: 'There is a lot of variety for this aspect. You can go Zeus Special and go for a Jolted run, or take Dionysus Special with Demeter Cast for a nasty Curse Status build.'
+    },
+    {
+        weapon: 'Shield of Chaos',
+        title: 'Aspect of Beowulf',
+        playstyle: 'I have found that there are 2 distinc ways to play this aspect - you either focus on a Cast build, or a Special build. A lot of people ignore that this aspect has a lot of damage on the Special since its main focus is dislodging Cast Ammo from your foes. However, you will deal more damage with a Cast build.',
+        startingKeepsake: 'Take Overflowing Cup (Dionysus\' keepsake) to get Trippy Flare early.',
+        mirror: 'Privileged Status is good for this one, but the only really mandatory Talent is Infernal Soul, as it gives you more Cast Ammo.',
+        boons: [
+            {
+                name: 'Trippy Flare (Dionysus)', 
+                img: './img/trippy-flare.png',
+                prerequisites: 'Unique to Aspect of Beowulf.',
+                effect: 'Your Cast damages foes around you, leaving behind Festive Fog.',
+                explaination: 'Beowulf changes all Casts in the game, and this one is the most beneficial since it isn\'t a lob anymore. Stacking these into your foes and going for Zeus duo boon is the way to go.'
+            },
+            {
+                name: 'High Tolerance (Dionysus)', 
+                img: './img/high-tolerance.png',
+                prerequisites: 'Trippy Shot or Trippy Flare.',
+                effect: 'Take less damage while standing in Festive Fog.',
+                explaination: 'You can\'t always dodge all of your foes\' attacks, and this aspect makes you take more damage. You can skip this boon entirely if you feel like it, but it will make it safer to play.'
+            },
+            {
+                name: 'Thunder Flourish (Zeus)', 
+                img: './img/thunder-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special causes a lightning bolt to strike nearby foes.',
+                explaination: 'You can take Lightning Strike instead, but I found this boon easier to execute since it is faster than your Attack. The main reason you need this boon is to get the duo boon for Dionysus and Zeus. Other than that, it\'s a great boon in combination with Dread Flight.'
+            },
+            {
+                name: 'Static Discharge (Zeus)', 
+                img: './img/static-discharge.png',
+                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
+                effect: 'Your lightning effects also make foes Jolted.',
+                explaination: 'For extra damage, works nicely with your Special and your duo.'
+            },
+            {
+                name: 'Scintillating Feast (Dionysus & Zeus Duo)', 
+                img: './img/scintillating-feast.png', 
+                prerequisites: 'One of each of these Dionysus and Zeus boons: <br />Dionysus: High Tolerance or Trippy Shot. <br />Zeus: Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, or Zeus\' Aid.',
+                effect: 'Your Festive Fog effects also deal lightning damage periodically. Lightning Damage: 60.',
+                explaination: 'Thanks to this boon, your Festive Fog will be even stronger and will do all the playing for you once you get the Jolted effect.'
+            },
+            {
+                name: 'Swift Flourish (Hermes)', 
+                img: './img/swift-flourish.png', 
+                prerequisites: 'none',
+                effect: 'Your Special is +X% faster.',
+                explaination: 'Every Hermes boon is welcome.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Unyielding Defense',
+                img: './img/unyielding-defense.png',
+                effect: 'After using your Naegling\'s Board Cast, you are Sturdy for 3 Sec.',
+                explaination: 'Sturdy is a very strong effect and you\'re gonna need it in order not to get stunned during your Attack charge.'
+            },
+            {
+                name: 'Dread Flight',
+                img: './img/dread-flight.png',
+                effect: 'Your Special can strike up to 4 additional foes before returning.',
+                explaination: 'For more Special damage. If you completely focus on your Special, you don\'t even need to go for a Cast build.'
+            }
+        ],
+        funAlternative: 'One fun build is to just focus on your Special by taking Artemis. Dread Flight and Charge Flight are a must if  you\'re going for that build. You can also go for other Cast builds, such as a Blade Rift build, or Aphrodite\'s Cast. It\'s a very versatile aspect, what can I say.'
+    }
 ]
 
 const htmlGenerator = (build) => {
