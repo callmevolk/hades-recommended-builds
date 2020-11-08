@@ -267,7 +267,7 @@ const buildArray = [
     {
         weapon: 'Eternal Spear',
         title: 'Aspect of Zagreus',
-        playstyle: 'Aspect of Zagreus is the weapon that many players beat this game with for the first time. The build relies on using Theseus tactics - positioning yourself and chunking your foes with massive damage from your Special. Naturally, best boons to pick up for this build are those that power up your Special.',
+        playstyle: 'The spear is the weapon that many players beat this game with for the first time. This build relies on using Theseus\' tactics - chunking your foes with massive damage from throwing your spear. Naturally, best boons to pick up for this build are those that power up your Special.',
         startingKeepsake: 'Black Shawl (Nyx\' keepsake) is good for dealing bonus backstab damage to foes, given that you\'re going to backstab them often when calling the spear back to you. You should also consider taking Poseidon\'s and Zeus\'s keepsakes early to get their boons.',
         mirror: 'Since you will backstab often, it would be wise to take Shadow Presence.',
         boons: [
@@ -290,7 +290,7 @@ const buildArray = [
                 img: './img/wave-pounding.png',
                 prerequisites: 'Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
                 effect: 'Your boons with Knock-Away effects deal bonus damage to bosses.',
-                explaination: 'An excellent pick-up for dealing with the big guys (and gals). Pretty much every instance of damage you will be dealing applies knock-away effects, so it\'s only natural that you\'re going to want to pick up this boon.'
+                explaination: 'An excellent pick-up for dealing with bosses. Your Special will knock foes away, so it\'s only natural that you\'re going to want to pick up this boon.'
             },
             {
                 name: 'Electric Shot (Zeus)', 
@@ -311,7 +311,7 @@ const buildArray = [
                 img: './img/swift-flourish.png', 
                 prerequisites: 'none',
                 effect: 'Your Special is +X% faster.',
-                explaination: 'This one will make it safer for you to charge your Special since it will be faster.'
+                explaination: 'This one will make your life easier, especially since Chain Skewer needs some time before you can take your spear back.'
             }
         ],
         daedalus: [
@@ -512,7 +512,73 @@ const buildArray = [
             }
         ],
         funAlternative: 'As mentioned before, you can instead opt out for boons that focus on giving you more HP, such as Aphrodite and Dionysus. Poseidon can be used for spacing instead of Demeter, too.'
-    }
+    },
+    {
+        weapon: 'Shield of Chaos',
+        title: 'Aspect of Zagreus',
+        playstyle: 'The starting aspect of the shield is somehow the most underwhelming for me, and that\'s not an unpopular opinion. The effects it gives are plain and there are better aspects that have a similar playstyle. However, given that it\'s the first aspect of the weapon, many players might have to play it since they don\'t have enough Titan Blood to unlock better aspects. With this build, you\'re going to focus on dealing as much damage as possible with your Attacks. We\'re going to use a combination of Ares and Aphrodite for this one.',
+        startingKeepsake: 'Blood Filled Vial (Ares\' keepsake) to get his Special, or Eternal Rose (Aphrodite\'s keepsake) to get her Attack.',
+        mirror: 'Take Privileged Status, as it will be the bread and butter of our playstyle.',
+        boons: [
+            {
+                name: 'Heartbreak Strike (Aphrodite)', 
+                img: './img/heartbreak-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack deals more damage and inflicts Weak.',
+                explaination: 'The reason you want this isn\'t for the damage, but for the Weak effect and for duo boon with Ares. The combination of Weak and Doom will make you deal 40% more damage thanks to Mirror of Night\'s Privileged Status Talent.'
+            },
+            {
+                name: 'Sweet Surrender (Aphrodite)', 
+                img: './img/sweet-surrender.png',
+                prerequisites: 'Passion Dash, Crush Shot, Heartbreak Strike, or Heartbreak Flourish.',
+                effect: 'Weak-afflicted foes are also more susceptible to damage.',
+                explaination: 'This is a nice pick-up, more damage is always welcome.'
+            },
+            {
+                name: 'Curse of Pain (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Doom.',
+                explaination: 'Applying Doom with your Special while applying Weak with your Attack is, once again, your main playstyle, so this boon is a must.'
+            },
+            {
+                name: 'Impending Doom (Ares)', 
+                img: './img/impending-doom.png',
+                prerequisites: 'Curse of Agony, Curse of Pain, or Curse of Vengeance',
+                effect: 'Your Doom effects deal more damage, after +0.5 Sec.',
+                explaination: 'This is a nice power-up for your Doom effects.'
+            },
+            {
+                name: 'Curse of Longing (Aphrodite and Ares Duo)', 
+                img: './img/curse-of-longing.png', 
+                prerequisites: 'One of each of these Aphrodite and Ares boons: <br />Aphrodite: Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, or Passion Flare. <br />Ares: Curse of Agony or Curse of Pain.',
+                effect: 'Your Doom effects continuously strike Weak foes. Successive Hit Damage: 50%.',
+                explaination: 'This is your main boon, your runs will be way easier if you get lucky enough to get this one.'
+            },
+            {
+                name: 'Swift Strike (Hermes)', 
+                img: './img/swift-strike.png', 
+                prerequisites: 'none',
+                effect: 'Your Attack is +X% faster.',
+                explaination: 'You will rely on Attacks more than Specials to deal damage, so this one is a given.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Pulverizing Blow',
+                img: './img/pulverizing-blow.png',
+                effect: 'Your Attack hits twice, but does not knock foes away.',
+                explaination: 'You aren\'t going to be taking advantage of the knock-away effect of your Attacks, so it won\'t hurt you if you exchange it for extra Attacks.'
+            },
+            {
+                name: 'Dashing Wallop',
+                img: './img/dashing-wallop.png',
+                effect: 'Your Dash Attack deals +50% damage in a larger area.',
+                explaination: 'You will Dash Attack a lot. Bigger AoE and more damage are great helpers.'
+            },
+        ],
+        funAlternative: 'You could take advantage of your knock-away effects and go for a Poseidon build. Another fun build is going for Hangover boons from Dionysus and zooming across the Underworld, watching booze kill your foes.'
+    },
 ]
 
 const htmlGenerator = (build) => {
