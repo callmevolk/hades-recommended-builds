@@ -276,7 +276,7 @@ const buildArray = [
                 img: './img/tempest-flourish.png',
                 prerequisites: 'none',
                 effect: 'Your Special deals more damage and knocks foes away.',
-                explaination: 'Poseidon and Zeus combo is a standard build for this aspect. You\'re gonna rely on rupturing and backstabing your foes while dealing aditional damage with Zeus. The reason you want Poseidon\'s Special and not Zeus\' is because, in combination with Chain Skewer, Poseidon\'s Special bouncing on enemies is more useful.'
+                explaination: 'Poseidon and Zeus combo is a standard build for this aspect. You\'re gonna rely on rupturing and backstabing your foes while dealing aditional damage with Zeus. The reason you want Poseidon\'s Special and not Zeus\' is because, in combination with Chain Skewer, Poseidon\'s Special bouncing on foes is more useful.'
             },
             {
                 name: 'Razor Shoals (Poseidon)', 
@@ -398,7 +398,7 @@ const buildArray = [
                 name: 'Chain Skewer',
                 img: './img/chain-skewer.png',
                 effect: 'Your Special bounces to up to 7 foes, dealing +30% damage for each.',
-                explaination: 'I almost always go for this Daedalus Upgrade on the Spear. You will start all your combos with your Special, so hitting multiple enemies is a good bonus to have.'
+                explaination: 'I almost always go for this Daedalus Upgrade on the Spear. You will start all your combos with your Special, so hitting multiple foes is a good bonus to have.'
             },
             {
                 name: 'Vicious Skewer',
@@ -452,21 +452,21 @@ const buildArray = [
                 explaination: 'This is another Daedalus Upgrade that focuses on your Spin Attack. I would say it should be prioritized only after getting Quick Spin since Quick Spin makes landing your Spin Attack easier, but if you\'re feeling confident then go for this one instead.'
             }
         ],
-        funAlternative: 'You could go for Demeter boons to make your enemies slower, allowing you to land your Spin Attacks more reliably. However, I have found that the only REAL fun alternative for this aspect is to just choose any other aspect.'
+        funAlternative: 'You could go for Demeter boons to make your foes slower, allowing you to land your Spin Attacks more reliably. However, I have found that the only REAL fun alternative for this aspect is to just choose any other aspect.'
     },
     {
         weapon: 'Eternal Spear',
         title: 'Aspect of Guan Yu',
         playstyle: 'If I had to describe Aspect of Guan Yu to someone in three words, I would use the term "high skill ceiling". I understand that its high HP cost is very scary at first, but when you max it out and play carefully, it becomes a high-risk, high-reword kind of a weapon. Given that that\'s the case, your build should be a combination of healing, spacing and damaging boons. There are plenty ways to play this aspect, but here\'s the one that sounds the most logical to me.',
         startingKeepsake: 'There\'s actually a lot of options here. Should you go for Athena for early Athena\'s call, or should you go for Demeter for Attack boon, Aphrodite for Max HP boon, Dionysus for HP boons, or perhaps even Cerberus\' keepsake to get your HP up as quickly as possible? Well, my philosophy is taking either Demeter or Athena first because their duo boon is quite helpful for this build. <br /> Taking Athena is also great because she has 2 boons that can restore your Death Defiance.',
-        mirror: 'Whatever you prefer. I\'ve seen some people go for Stubborn Defiance because they expect to die a bunch since their HP is low, but I usually never go for that one myself. Privileged Status is good too since you\'re going to have Chill effects on enemies from Demeter Attacks.',
+        mirror: 'Whatever you prefer. I\'ve seen some people go for Stubborn Defiance because they expect to die a bunch since their HP is low, but I usually never go for that one myself. Privileged Status is good too since you\'re going to have Chill effects on foes from Demeter Attacks.',
         boons: [
             {
                 name: 'Frost Strike (Demeter)', 
                 img: './img/frost-strike.png',
                 prerequisites: 'none',
                 effect: 'Your Attack is stronger and inflicts Chill.',
-                explaination: 'Chill effects stack and slow down your enemies, which will help you with spacing and landing your Spin Attacks more reliably without risking taking damage. Another good thing about Chill effects is that they are easy to combine with other Status Curses, allowing you to deal 20% bonus damage if you take Privileged Status Talent from the Mirror of Night.'
+                explaination: 'Chill effects stack and slow down your foes, which will help you with spacing and landing your Spin Attacks more reliably without risking taking damage. Another good thing about Chill effects is that they are easy to combine with other Status Curses, allowing you to deal 20% bonus damage if you take Privileged Status Talent from the Mirror of Night.'
             },
             {
                 name: 'Divine Dash (Athena)', 
@@ -578,6 +578,72 @@ const buildArray = [
             },
         ],
         funAlternative: 'You could take advantage of your knock-away effects and go for a Poseidon build. Another fun build is going for Hangover boons from Dionysus and zooming across the Underworld, watching booze kill your foes.'
+    },
+    {
+        weapon: 'Shield of Chaos',
+        title: 'Aspect of Chaos',
+        playstyle: 'When fully maxed, Aspect of Chaos is one of the most broken weapons in the game. It incentivizes you to use your Bull Rush, while powering up your Special at the same time. The most popular build for it is abusing the synergy between Dionysus and Ares, and that\'s exactly what you should do, too. Your main strategy will consist of dashing to a good place, using Bull Rush and then killing all your foes by spamming Special.',
+        startingKeepsake: 'Blood Filled Vial (Ares\' keepsake) to get his Attack, or Overflowing Cup (Dionysus\' keepsake) to get his Special.',
+        mirror: 'Since both Ares and Dionysus apply Status Curses with the boons you want from them, take Privileged Status.',
+        boons: [
+            {
+                name: 'Drunken Flourish (Dionysus)', 
+                img: './img/drunken-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Hangover.',
+                explaination: 'You will want your Attacks to apply Hangover in order to deal as much damage as possible. Also allows you to unlock duo boon for him and Ares.'
+            },
+            {
+                name: 'Curse of Pain (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Doom.',
+                explaination: 'You will have 5 shields flying at your foes, all applying Doom stacks. This is the formula for some of the fastest clears this game provides.'
+            },
+            {
+                name: 'Impending Doom (Ares)', 
+                img: './img/impending-doom.png',
+                prerequisites: 'Curse of Agony, Curse of Pain, or Curse of Vengeance',
+                effect: 'Your Doom effects deal more damage, after +0.5 Sec.',
+                explaination: 'This is a nice power-up for your Doom effects.'
+            },
+            {
+                name: 'Curse of Nausea (Ares & Dionysus Duo)', 
+                img: './img/curse-of-nausea.png', 
+                prerequisites: 'One of each of these Ares and Dionysus boons: <br />Ares: Curse of Agony, Curse of Pain, or Curse of Vengeance. <br />Dionysus: Dionysus\' Aid, Drunken Dash, Drunken Flourish, or Drunken Strike.',
+                effect: 'Your Hangover effects deal damage faster. Damage Rate: .50 sec -> .35 sec.',
+                explaination: 'One of the best Status Curse combos in the game, watch it melt the Underworld.'
+            },
+            {
+                name: 'Swift Strike (Hermes)', 
+                img: './img/swift-strike.png', 
+                prerequisites: 'none',
+                effect: 'Your Attack is +X% faster.',
+                explaination: 'Pretty much every Hermes boon that speeds you up is welcome.'
+            },
+            {
+                name: 'Swift Flourish (Hermes)', 
+                img: './img/swift-flourish.png', 
+                prerequisites: 'none',
+                effect: 'Your Special is +X% faster.',
+                explaination: 'Same as Swift Strike.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Sudden Rush',
+                img: './img/sudden-rush.png',
+                effect: 'Your Bull Rush charges much faster.',
+                explaination: 'This one is mandatory, makes your life so much easier.'
+            },
+            {
+                name: 'Breaching Rush',
+                img: './img/breaching-rush.png',
+                effect: 'Your Bull Rush deals +400% damage to Armor.',
+                explaination: 'This one is very much necessary if you\'re playing on a lot of Heat.'
+            }
+        ],
+        funAlternative: 'Go for Zeus Special and focus on Jolted damage. You will want to take Sudden Rush and Zeus Special as soon as possible, and trust me when I say that the rest doesn\'t even matter. Take Athena\'s Dash to add an extra measure of OP.'
     },
 ]
 
