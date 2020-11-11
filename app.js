@@ -828,6 +828,107 @@ const buildArray = [
             }
         ],
         funAlternative: 'There\'s a couple of solid variations on this build, mostly involving taking a Status Curse other than Ares for your Special. One build that I beat the game with using this aspect was taking Artemis Special with Aphrodite Attack, although that build is way more effective with the Chiron aspect of the bow.'
+    },
+    {
+        weapon: 'Heart-Seeking Bow',
+        title: 'Aspect of Chiron',
+        playstyle: 'Ahh, Chiron, what would I do without you! Yes, this is the aspect I beat the game most times with. I don\'t blame you for judging me - playing this aspect is like playing the game on easy mode. The reason why Chiron is the most broken thing in the game is because of its design - if you hit something with your Attack, your Special arrows will become homing projectiles that go after that foe. While this means that with a Status Curse on both Attack and Special you\'re guaranteed to proc Privileged Status, we\'re not going to play like that. The most simple and effective build with this bow is this: Aphrodite Attack to make the foes Weak, Artemis Special to make them eat Crits, Athena Dash and Call to keep you safe and pretty much whatever else.',
+        startingKeepsake: 'Take Adamant Arrowhead (Artemis\' keepsake) to get her Special as soon as possible.',
+        mirror: 'Take Shadow Presence to deal extra damage from behind.',
+        boons: [
+            {
+                name: 'Deadly Flourish (Artemis)', 
+                img: './img/deadly-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special is stronger, with +20% chance to deal Critical Damage.',
+                explaination: 'This boon is absolutely nuts on Chiron because you\'re almost guaranteed to land all of your Special shots. Amplified with the Daedalus Upgrade that gives you more Special shots, you\'re going to be unstoppable.'
+            },
+            {
+                name: 'Pressure Points (Artemis)', 
+                img: './img/pressure-points.png',
+                prerequisites: 'none',
+                effect: 'Any damage you deal has a chance to be Critical.',
+                explaination: 'Great boon if you\'re getting Support Fire'
+            },
+            {
+                name: 'Clean Kill (Artemis)', 
+                img: './img/clean-kill.png',
+                prerequisites: 'Artemis\' Aid, Deadly Flourish, Deadly Strike, Pressure Points, or True Shot',
+                effect: 'Your Critical effects deal even more damage.',
+                explaination: 'Amazing boon to make you even more overpowered.'
+            },
+            {
+                name: 'Support Fire (Artemis)', 
+                img: './img/support-fire.png',
+                prerequisites: 'Artemis\' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, or True Shot.',
+                effect: 'After you Cast, or hit with an Attack or Special, fire a seeking arrow.',
+                explaination: 'The damage it deals might seem insignificant but it adds up in the long run. Especially if the seeking arrows apply Crits.'
+            },
+            {
+                name: 'Heartbreak Strike (Aphrodite)', 
+                img: './img/heartbreak-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack deals more damage and inflicts Weak.',
+                explaination: 'Take this boon to unlock Aphrodite and Artemis duo boon. The Weak effect is also nice on its own :)'
+            },
+            {
+                name: 'Sweet Surrender (Aphrodite)', 
+                img: './img/sweet-surrender.png', 
+                prerequisites: 'Passion Dash, Crush Shot, Heartbreak Strike, or Heartbreak Flourish.',
+                effect: 'Weak-afflicted foes are also more susceptible to damage.',
+                explaination: 'You know the drill, bonus damage is always welcome. Your Attacks will always be followed up by your Special, so there\'s no good reason not to take this.'
+            },
+            {
+                name: 'Heart Rend (Aphrodite & Artemis Duo)', 
+                img: './img/heart-rend.png', 
+                prerequisites: 'One of each of these Aphrodite and Artemis boons: <br />Aphrodite: Passion Dash, Crush Shot, Heartbreak Strike, or Heartbreak Flourish. <br />Artemis: Deadly Strike, Deadly Flourish, or True Shot.',
+                effect: 'Your Critical effects deal even more damage to Weak foes. Bonus Critical Damage vs. Weak: +150%',
+                explaination: 'From now on, refer to this boon simply as "The Game-Breaker". Not only will you do bonus damage thanks to Weak foes thanks to Sweet Surrender, not only will you do bonus damage thanks to Clean Kill, but you will also deal bonus damage on top of that. Absolutely disgusting. Makes you feel like playing Stealth Archer in Skyrim.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'Not mandatory but highly recommended, will make you safe while repositioning. Also opens up Exposing your enemies, dealing extra Backstab damage, which is nuts in combination with Shadow Presence and your seeking Special that often hits from behind.'
+            },
+            {
+                name: 'Blinding Flash (Athena)', 
+                img: './img/blinding-flash.png', 
+                prerequisites: 'Divine Strike, Phalanx Shot, Divine Dash, or Divine Flourish.',
+                effect: 'Your abilities that can Deflect also make foes Exposed for 5 Sec.',
+                explaination: 'This one is going to help you a ton, especially when you take extra ammo for your Special from a Daedalus Upgrade.'
+            },
+            {
+                name: 'Athena\'s Aid (Athena)', 
+                img: './img/athenas-aid.png', 
+                prerequisites: 'none',
+                effect: 'Your Call briefly makes you Invulnerable and Deflect all attacks.',
+                explaination: 'Using this Call is just silly, especially when upgraded. Stand in place and spam Attacks and Specials without much thinking.'
+            },
+            {
+                name: 'Swift Flourish (Hermes)', 
+                img: './img/swift-flourish.png', 
+                prerequisites: 'none',
+                effect: 'Your Special is +X% faster.',
+                explaination: 'To make you able to get more Specials in before the Chiron homing effects wears off.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Relentless Volley',
+                img: './img/relentless-volley.png',
+                effect: 'Your Special shoots +4 shots.',
+                explaination: 'If you get this in Tartarus, it\'s gg. By simple maths, makes you deal over 50% more damage in general compared to playing without this upgrade.'
+            },
+            {
+                name: 'Piercing Volley',
+                img: './img/piercing-volley.png',
+                effect: 'Your Special pierces foes and deals +400% damage to Armor.',
+                explaination: 'Not bad on higher Heats, Armored foes can be a pain in the butt.'
+            }
+        ],
+        funAlternative: 'Take Demeter on Special to play Ashe from League of Legends, quite good synergy with Aphrodite on Attack. Dionysus Special isn\'t bad either, as his synergy with Aphrodite is even better. I also heard that Aphrodite Special and Lightning focus on the rest is mighty overpowered, but I have yet to test that build out.'
     }
 ]
 
