@@ -648,7 +648,7 @@ const buildArray = [
     {
         weapon: 'Shield of Chaos',
         title: 'Aspect of Zeus',
-        playstyle: 'Aspect of Zeus might be one of the hardest aspects to play with because its playstyle is unlike any other. The gist of your strategy should be throwing your Special and let it stack any kind of Curse Status you can come across while positioning and shielding yourself from foes using your Attack. There\'s really a ton of builds you can try this weapon with, but we\'re going with Ares & Athena combo.',
+        playstyle: 'Aspect of Zeus might be one of the hardest aspects to play with because its playstyle is unlike any other. The gist of your strategy should be throwing your Special and let it stack any kind of Status Curse you can come across while positioning and shielding yourself from foes using your Attack. There\'s really a ton of builds you can try this weapon with, but we\'re going with Ares & Athena combo.',
         startingKeepsake: 'Blood Filled Vial (Ares\' keepsake) Special as early as possible.',
         mirror: 'If you think you\'re going to be able to take Athena\'s Exposed Curse, go for Privileged Status.',
         boons: [
@@ -702,7 +702,7 @@ const buildArray = [
                 explaination: 'Catching your Special leaves you vulnerable, as it can interrupt your Attack charge. However, since it comes back to you automatically, you have to pick it up. Having it deal damage while you pick it up patches the downside of it interrupting you.'
             }
         ],
-        funAlternative: 'There is a lot of variety for this aspect. You can go Zeus Special and go for a Jolted run, or take Dionysus Special with Demeter Cast for a nasty Curse Status build.'
+        funAlternative: 'There is a lot of variety for this aspect. You can go Zeus Special and go for a Jolted run, or take Dionysus Special with Demeter Cast for a nasty Status Curse build.'
     },
     {
         weapon: 'Shield of Chaos',
@@ -769,6 +769,65 @@ const buildArray = [
             }
         ],
         funAlternative: 'One fun build is to just focus on your Special by taking Artemis. Dread Flight and Charge Flight are a must if  you\'re going for that build. You can also go for other Cast builds, such as a Blade Rift build, or Aphrodite\'s Cast. It\'s a very versatile aspect, what can I say.'
+    },
+    {
+        weapon: 'Heart-Seeking Bow',
+        title: 'Aspect of Zagreus',
+        playstyle: 'This build is very straight-forward. Dash behind and enemy, unleash point-blank backstab Special, dash away, repeat. It\'s cheesy but it gets the job done, but I promise it\'s not as boring as I make it out to be. This is one of the aspects that a lot of players first won the game with, and that\'s because of how safe it is to poke your enemies from the distance. However, I suggest that you do it in a ballsy manner with the shotgun tactics. There\'s a lot of different ways to play with this aspect, and this one is the most fun in my opinion. By taking Ares for your Special, you practically melt all your foes. And when it comes to bosses - you don\'t even have to aim, just shoot a random Special and there\'s a good chance it will hit, applying Doom stacks. Athena Dash for safety, 2 Daedalus Upgrades for your Special, Hermes Special speed boon and Privileged Status if you want to take a Status Curse for your Attack, Cast or Call in order to take Privileged Status are all nice options.',
+        startingKeepsake: 'Take Blood-Filled Vial (Ares\' keepsake) to get his Special early on.',
+        mirror: 'As mentioned before, Privileged Status is a good idea, although not mandatory. You could also benefit from taking Shadow Presence for hitting foes from behind.',
+        boons: [
+            {
+                name: 'Curse of Pain (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Doom.',
+                explaination: 'This is your main boon. The higher rarity you get it, the better.'
+            },
+            {
+                name: 'Dire Misfortune (Ares)', 
+                img: './img/dire-misfortune.png',
+                prerequisites: 'Curse of Agony or Curse of Pain.',
+                effect: 'Your Doom effects deal more damage when applied multiple times.',
+                explaination: 'You\'re going to want to take all the boons that power up your Doom effects.'
+            },
+            {
+                name: 'Impending Doom (Ares)', 
+                img: './img/impending-doom.png',
+                prerequisites: 'Curse of Agony, Curse of Pain, or Curse of Vengeance.',
+                effect: 'Your Doom effects deal more damage, after +0.5 Sec.',
+                explaination: 'Same logic as Dire Misfortune, this one will help out a lot.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'You don\'t exactly have to take this one if you have other preferences, but a Dash with a Deflect is very useful in my opinion if you use Dashes strictly to reposition yourself. If you get lucky, you can get the Exposed boon too, as well as the duo with Ares.'
+            },
+            {
+                name: 'Swift Flourish (Hermes)', 
+                img: './img/swift-flourish.png', 
+                prerequisites: 'none',
+                effect: 'Your Special is +X% faster.',
+                explaination: 'This one is going to help you a ton, especially when you take extra ammo for your Special from a Daedalus Upgrade.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Relentless Volley',
+                img: './img/relentless-volley.png',
+                effect: 'Your Special shoots +4 shots.',
+                explaination: 'Amazing boon for this build. Do, however, take in mind, that extra 4 ammo means it will take longer for you to shoot your Special, so be careful not to get attacked during the animation.'
+            },
+            {
+                name: 'Piercing Volley',
+                img: './img/piercing-volley.png',
+                effect: 'Your Special pierces foes and deals +400% damage to Armor.',
+                explaination: 'Very good for Elysium and higher Heats in general.'
+            }
+        ],
+        funAlternative: 'There\'s a couple of solid variations on this build, mostly involving taking a Status Curse other than Ares for your Special. One build that I beat the game with using this aspect was taking Artemis Special with Aphrodite Attack, although that build is way more effective with the Chiron aspect of the bow.'
     }
 ]
 
@@ -811,6 +870,10 @@ const htmlGenerator = (build) => {
     const htmlString = `
     <h3 class="build__title">${title}</h3>
     <p class="build__text">${playstyle}</p>
+    <h3 class="build__list__title">Mirror of Night</h4>
+    <p class="build__mirror__text">${build.mirror}</p>
+    <h3 class="build__list__title">Starting Keepsake</h4>
+    <p class="build__mirror__text">${build.startingKeepsake}</p>
     <div class="build__list">
         <h3 class="build__list__title">Recommended Boons</h3>
         ${boonBoilerplate}
@@ -819,10 +882,6 @@ const htmlGenerator = (build) => {
         <h3 class="build__list__title">Daedalus Upgrades</h3>
         ${daedalusBoilerplate}
     </div>
-    <h3 class="build__list__title">Mirror of Night</h4>
-    <p class="build__mirror__text">${build.mirror}</p>
-    <h3 class="build__list__title">Starting Keepsake</h4>
-    <p class="build__mirror__text">${build.startingKeepsake}</p>
     <h3 class="build__list__title">Fun Alternative</h4>
     <p class="build__mirror__text">${build.funAlternative}</p>
     `;
