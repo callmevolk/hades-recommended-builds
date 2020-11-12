@@ -929,6 +929,87 @@ const buildArray = [
             }
         ],
         funAlternative: 'Take Demeter on Special to play Ashe from League of Legends, quite good synergy with Aphrodite on Attack. Dionysus Special isn\'t bad either, as his synergy with Aphrodite is even better. I also heard that Aphrodite Special and Lightning focus on the rest is mighty overpowered, but I have yet to test that build out.'
+    },
+    {
+        weapon: 'Heart-Seeking Bow',
+        title: 'Aspect of Hera',
+        playstyle: 'Hera is an aspect that focuses on playing Cast builds. It\'s just like Zagreus, except that you can load Casts for your Attacks. Just like Beowulf, this aspect changes the Cast boons to be aimed differently, since they will be fired with your Attacks, which helps us make better use of some Casts that are harder to land otherwise. This is the reason why the build will focus on Dionysus\' Trippy Shot.',
+        startingKeepsake: 'Take Overflowing Cup (Dionysus\' keepsake) to get his Cast. You can take Blood-Filled Vial (Ares\' keepsake) later to get his Special.',
+        mirror: 'Take Shadow Presence for damage from behind and Privileged Status because you will be applying Hangover and Doom. It doesn\'t matter whether you take Infernal Soul or Stygian Soul, it\'s up to you.',
+        boons: [
+            {
+                name: 'Trippy Shot (Dionysus)', 
+                img: './img/trippy-shot.png',
+                prerequisites: 'none',
+                effect: 'Your Cast lobs a projectile that bursts into Festive Fog.',
+                explaination: 'Considered one of the strongest Casts damage-wise, so you will focus on building around this boon.'
+            },
+            {
+                name: 'Curse of Pain (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Doom.',
+                explaination: 'Just like with Zagreus aspect, you will want to shotgun your enemies point black range from the back. After loading Cast on your Attacks and landing your Attacks, dash close to your foes and use your Special.'
+            },
+            {
+                name: 'Curse of Nausea (Ares & Dionysus Duo)', 
+                img: './img/curse-of-nausea.png', 
+                prerequisites: 'One of each of these Ares and Dionysus boons: <br />Ares: Curse of Agony, Curse of Pain, or Curse of Vengeance. <br />Dionysus: Dionysus\' Aid, Drunken Dash, Drunken Flourish, or Drunken Strike.',
+                effect: 'Your Hangover effects deal damage faster. Damage Rate: .50 sec -> .35 sec.',
+                explaination: 'A simple yet effective boon that will make this build smoother to play. Really melts through foes and bosses alike.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'As you might have guessed, it\'s not mandatory that you take this boon, but it\'s just my recommendation because it is very safe. If you prefer, go for something more rewarding.'
+            },
+            {
+                name: 'Quick Reload (Hermes)', 
+                img: './img/quick-reload.png', 
+                prerequisites: 'Infernal Soul from the Mirror',
+                effect: 'Foes drop Cast Ammo stuck in them faster.',
+                explaination: 'If you take Infernal Soul Talent from the Mirror, take this one.'
+            },
+            {
+                name: 'Auto Reload (Hermes)', 
+                img: './img/auto-reload.png', 
+                prerequisites: 'Stygian Soul from the Mirror',
+                effect: 'You regenerate Cast Ammo faster.',
+                explaination: 'If you take Stygian Soul Talent from the Mirror, take this one.'
+            },
+            {
+                name: 'Greater Reload (Hermes)', 
+                img: './img/greater-reload.png', 
+                prerequisites: 'Infernal Soul from the Mirror, Flurry Cast, Quick Reload, Auto Reload, or Lambent Plume (Keepsake Ability).',
+                effect: 'Your Cast Ammo automatically return to you.',
+                explaination: 'If you take Infernal Soul Talent from the Mirror, take this one.'
+            },
+            {
+                name: 'Auto Reload (Hermes)', 
+                img: './img/auto-reload.png', 
+                prerequisites: 'Stygian Soul from the Mirror, Auto Reload or Lambent Plume (Keepsake Ability)',
+                effect: 'Your cast deals more damage to foes without Cast Ammo on them. First shot damage: +50%.',
+                explaination: 'If you take Stygian Soul Talent from the Mirror, take this one.'
+            }
+
+        ],
+        daedalus: [
+            {
+                name: 'Relentless Volley',
+                img: './img/relentless-volley.png',
+                effect: 'Your Special shoots +4 shots.',
+                explaination: 'Since you will be shotgunning a lot, this one isn\'t a bad idea.'
+            },
+            {
+                name: 'Flurry Shot',
+                img: './img/flurry-shot.png',
+                effect: 'Hold Attack to shoot rapidly, but you cannot Power Shot.',
+                explaination: 'This boon is pretty great for this build, since you won\'t have to charge your Attack. Thanks to this one, you can unload your Casts on your foes much faster.'
+            }
+        ],
+        funAlternative: 'If you search for builds for this aspect, you will find that everyone has their own way to play it. Sure, Trippy Shot is the Cast that deals the most damage, but you can always opt in for Artemis-focused build since she has a lot of built-in support for Cast builds. Going for Demeter and Dionysus duo is good, too. Zeus is helpful, Aphrodite is helpful, there\'s just way too many builds to list here.'
     }
 ]
 
