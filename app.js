@@ -303,7 +303,7 @@ const buildArray = [
                 name: 'Sea Storm (Poseidon & Zeus Duo)', 
                 img: './img/sea-storm.png', 
                 prerequisites: 'One of each of these Poseidon and Zeus boons: <br />Poseidon: Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash. <br />Zeus: Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, or Zeus\' Aid.',
-                effect: 'Your knock-away effects also cause foes to be struck by lightning. Lightning Damage 40',
+                effect: 'Your knock-away effects also cause foes to be struck by lightning. Lightning Damage 40.',
                 explaination: 'This is your main boon. Cast to damage multiple foes, Special to damage multiple foes, knocking them back and striking them with lightning, and then draw your Spear back for bonus backstab damage. This combo will make you clear most encounters in the blink of an eye.'
             },
             {
@@ -1230,6 +1230,114 @@ const buildArray = [
             }
         ],
         funAlternative: 'There\'s a lot of interesting variations with this one, just like the Zagreus aspect. You can take Dionysus on Attack to stack it to 5 to deal very nice damage, same for Demeter. Taking Artemis on Special or Attack allows your Blade Rifts from Ares to be even better, so you might want to consider playing something like that, as well.'
+    },
+    {
+        weapon: 'Twin Fists of Malphon',
+        title: 'Aspect of Demeter',
+        playstyle: 'Aspect of Demeter is a really fun aspect that relies on you hitting your Attack 12 times and then smacking the ever living crap out of your foes with your Special. There are plenty fun ways to play this aspect, but my favorite has to be the good old Zeus and Poseidon combo. That is, Zeus on Attack, Poseidon on Special, and getting their duo boon. Since you will mostly use your Attacks to deal damage, you will have to get used to dashing and dash-attacking often in order to stack up your passive. For Dash you can go Athena if you want to keep it safe, but I prefer going for Poseidon\'s Dash for this build just to do as much damage as possible.',
+        startingKeepsake: 'Either take Conch Shell (Poseidon\'s keepsake) to get his Special early, or take Thunder Signet (Zeus\'s keepsake) to get his Attack early. I would recommend going Zeus first since you will use Attack more often than your Special.',
+        mirror: 'Take Privileged Status to deal more damage.',
+        boons: [
+            {
+                name: 'Tempest Flourish (Poseidon)', 
+                img: './img/tempest-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special deals more damage and knocks foes away.',
+                explaination: 'This boon will deal crazy amounts of damage after you stack up your passive. Not only that, but it will also knock its target back, keeping you safe and making it possible for you to deal Ruptured damage.'
+            },
+            {
+                name: 'Tidal Dash (Poseidon)',
+                img: './img/tidal-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash damages foes in an area and knocks them away.',
+                explaination: 'You will want to take this Dash over Zeus\' because it works better with their duo boon.'
+            },
+            {
+                name: 'Razor Shoals (Poseidon)', 
+                img: './img/razor-shoals.png',
+                prerequisites: 'Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
+                effect: 'Using knock-away effects also Rupture foes.',
+                explaination: 'Take this in order to apply Status Curse which will help you get the most use out of Privileged Status.'
+            },
+            {
+                name: 'Wave Pounding (Poseidon)', 
+                img: './img/wave-pounding.png',
+                prerequisites: 'Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
+                effect: 'Your boons with Knock-Away effects deal bonus damage to bosses.',
+                explaination: 'Pretty self-explainatory, get this if you can.'
+            },
+            {
+                name: 'Lightning Strike (Zeus)', 
+                img: './img/lightning-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack emits chain-lightning when you damage a foe.',
+                explaination: 'Very good for fast clears and stacking up your passive, even better if you can apply Jolted to your foes.'
+            },
+            {
+                name: 'Storm Lightning (Zeus)', 
+                img: './img/storm-lightning.png',
+                prerequisites: 'Electric Shot or Lightning Strike.',
+                effect: 'Your chain-lightning effects bounce more times before expiring.',
+                explaination: 'Great for fast clears.'
+            },
+            {
+                name: 'Zeus\' Aid (Zeus)', 
+                img: './img/zeus-aid.png',
+                prerequisites: 'none',
+                effect: 'Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.',
+                explaination: 'You mostly want to take this because you need it for other Zeus\' boons, but the fact that it\'s one of the best Calls damage-wise is a nice bonus :)'
+            },
+            {
+                name: 'High Voltage (Zeus)', 
+                img: './img/high-voltage.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects deal damage in a larger area.',
+                explaination: 'Anything that powers up your lightning bolts is good on this build.'
+            },
+            {
+                name: 'Double Strike (Zeus)', 
+                img: './img/double-strike.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects have a chance to strike twice.',
+                explaination: 'Incredibly strong boon, must-pick if you can.'
+            },
+            {
+                name: 'Static Discharge (Zeus)', 
+                img: './img/static-discharge.png',
+                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
+                effect: 'Your lightning effects also make foes Jolted.',
+                explaination: 'This boon is a must. Not only does it deal Jolt damage, but it also helps you to use your Privileged Status.'
+            },
+            {
+                name: 'Sea Storm (Poseidon & Zeus Duo)', 
+                img: './img/sea-storm.png', 
+                prerequisites: 'One of each of these Poseidon and Zeus boons: <br />Poseidon: Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash. <br />Zeus: Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, or Zeus\' Aid.',
+                effect: 'Your knock-away effects also cause foes to be struck by lightning. Lightning Damage 40.',
+                explaination: 'If you can get this, it\'s gg. Haven\'t lost a single time with this build when I got this boon.'
+            },
+            {
+                name: 'Swift Strike (Hermes)', 
+                img: './img/swift-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack is +X% faster.',
+                explaination: 'You will be using your Attack very often, so why not make it faster, right?'
+            },
+        ],
+        daedalus: [
+            {
+                name: 'Long Knuckle',
+                img: './img/long-knuckle.png',
+                effect: 'Your Attack has more range and deals +10% damage.',
+                explaination: 'Really nice boon, no reason not to take it.'
+            },
+            {
+                name: 'Rolling Knuckle',
+                img: './img/draining-cutter.png',
+                effect: 'Your Dash-Strike deals +60% damage; added to Attack sequence.',
+                explaination: 'You will Dash-Strike often, take this to make yourself stronger.'
+            }
+        ],
+        funAlternative: 'You can play this boon with Aphrodite\'s Attack and Artemis\' Special, which will do ridiculous damage if it Crits and if you have their duo boon. Using Special after stacking your passive while having Dionysus on your Special is a pretty nice way to stack his Hangover to max stacks, so you might go for that build, too.'
     }
 ]
 
