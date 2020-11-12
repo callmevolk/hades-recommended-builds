@@ -1087,75 +1087,68 @@ const buildArray = [
     {
         weapon: 'Twin Fists of Malphon',
         title: 'Aspect of Zagreus',
-        playstyle: 'Rama is the legendary aspect of the bow and as such, it has quite a different gameplay from the rest of the bows. The Attack on it is slow and wide but super powerful, while the Special bounces off of foes and stacks a debuff so that they take extra damage from the Attack. Since the Special bounces off of foes, focusing on Zeus\' Special is the way to go for this aspect. Using Attack is less reliable - it is good for Tartarus, but as the time goes on, you will rely on your Special more. That being said, you can make the Attack more reliable by using Dash Attacks and Doom effects to compensate for not charging the Attack fully. Using Doom effects on the Attack and Lightning effects on your special means that you can go for Privileged Status, which is great.',
-        startingKeepsake: 'Take Thunder Signet (Zeus\' keepsake) to get his Special early.',
-        mirror: 'Privileged Status is good.',
+        playstyle: 'The first aspect of the fists isn\'t all that impressive. It gives you a dodge chance buff, which is kinda lame. No bonus damage, no nothing, just plain dodge chance buff, making a lot of players go for a dodge chance build with Hermes and his keepsake. However, what most people do with this aspect is just straight up ignore the dodge chance and focus on dealing damage. Your main playstyle will revolve around dashing in and out and using your Attack on your foes to deal damage, preferably Backstab damage. Given that most of your Attacks will Backstab, I like running an Athena-focused build. Athena on the Attack means that you\'re going to be Deflecting while dunking hits in, which will be very often. One nice thing is that even when you\'re unable to Deflect an attack from your foes, you will still have 15% chance to dodge it. Athena can empower your Backstabs to Deflected foes so that\'s a nice plus, too.',
+        startingKeepsake: 'Take Owl Pendant (Athena\'s keepsake) to get her Attack as soon as possible. Keep it throughout the run to get higher chances of getting better rarity on her boons.',
+        mirror: 'Shadow Presence is very important here.',
         boons: [
             {
-                name: 'Thunder Flourish (Zeus)', 
-                img: './img/thunder-flourish.png',
+                name: 'Divine Strike (Athena)', 
+                img: './img/divine-strike.png',
                 prerequisites: 'none',
-                effect: 'Your Special causes a lightning bolt to strike nearby foes.',
-                explaination: 'Your Special bounces off of your foes, so it would be smart to take this one. Guarantees very fast clears.'
+                effect: 'Your Attack is stronger, and can Deflect.',
+                explaination: 'You will want to Dash behind your foes, get some quick Attacks in, Dash back. If you\'re attacked during the deed, you\'re just gonna Deflect the attacks with your fists.'
             },
             {
-                name: 'High Voltage (Zeus)', 
-                img: './img/high-voltage.png',
-                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
-                effect: 'Your lightning bolt effects deal damage in a larger area.',
-                explaination: 'Anything that powers up your lightning bolts is good.'
-            },
-            {
-                name: 'Static Discharge (Zeus)', 
-                img: './img/static-discharge.png',
-                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
-                effect: 'Your lightning effects also make foes Jolted.',
-                explaination: 'Amazing boon for any Zeus-focused build, also works well with Privileged Status.'
-            },
-            {
-                name: 'Splitting Bolt (Zeus)', 
-                img: './img/splitting-bolt.png',
-                prerequisites: 'Double Strike, High Voltage, or Storm Lightning.',
-                effect: 'All your lightning effects create an additional burst. Lightning Damage: 40.',
-                explaination: 'Zeus\' legendary boon is absolutely bonkers, you\'re gonna want to pick this up.'
-            },
-            {
-                name: 'Curse of Agony (Ares)', 
-                img: './img/curse-of-pain.png',
+                name: 'Divine Flourish (Athena)', 
+                img: './img/divine-flourish.png',
                 prerequisites: 'none',
-                effect: 'Your Attack inflicts Doom.',
-                explaination: 'As mentioned before, taking Doom on Attack will make it deal a lot of damage even if you don\'t get the full charge off. Also works well with Privileged Status.'
+                effect: 'Your Special is stronger, and can Deflect.',
+                explaination: 'Nice choice to go well with your Attacks, although not particularly that important.'
             },
             {
                 name: 'Divine Dash (Athena)', 
                 img: './img/divine-dash.png',
                 prerequisites: 'none',
                 effect: 'Your Dash deals damage and can Deflect.',
-                explaination: 'The safest Dash in the game, take it if you need safety. Feel free to take something more ballsy if you\'re feeling the flow.'
+                explaination: 'Safest boon in the game, and given that you will want to make your foes Exposed, it\'s only natural that you\'re going to look out for this boon.'
+            },
+            {
+                name: 'Blinding Flash (Athena)', 
+                img: './img/blinding-flash.png', 
+                prerequisites: 'Divine Strike, Phalanx Shot, Divine Dash, or Divine Flourish.',
+                effect: 'Your abilities that can Deflect also make foes Exposed for 5 Sec.',
+                explaination: 'This is one of the main boons of the build, making. It will allow you to beat your foes mercilessly while Deflecting attacks and making the foes of those attacks Exposed, thus allowing you to deal extra Backstab damage to them.'
             },
             {
                 name: 'Swift Strike (Hermes)', 
                 img: './img/swift-strike.png',
                 prerequisites: 'none',
                 effect: 'Your Attack is +X% faster.',
-                explaination: 'Great syngery with your Attack, always get this if possible.'
+                explaination: 'Always welcome.'
+            },
+            {
+                name: 'Hyper Sprint (Hermes)', 
+                img: './img/hyper-sprint.png',
+                prerequisites: 'none',
+                effect: 'For X seconds after you Dash, become Sturdy and run +100% faster.',
+                explaination: 'This one and Athena\'s Dash make a really nice combination, giving you safety even after your busted Dash.'
             }
         ],
         daedalus: [
             {
-                name: 'Relentless Volley',
-                img: './img/relentless-volley.png',
-                effect: 'Your Special shoots +4 shots.',
-                explaination: 'Great synergy with your Special, this one will make you clear Encounters in an instant.'
+                name: 'Long Knuckle',
+                img: './img/long-knuckle.png',
+                effect: 'Your Attack has more range and deals +10% damage.',
+                explaination: 'More range and more damage, what\'s there not to like?'
             },
             {
-                name: 'Repulse Shot',
-                img: './img/repulse-shot.png',
-                effect: 'Your Celestial Sharanga Attack creates a Blast Wave around you.',
-                explaination: 'If you feel like relying on your Attack more, this makes it safer to execute.'
+                name: 'Draining Cutter',
+                img: './img/draining-cutter.png',
+                effect: 'Whenever your Special slays foes, restore 2% life.',
+                explaination: 'It\'s not too important that you get this since you\'re already very safe, but it\'s a nice addition to your arsenal.'
             }
         ],
-        funAlternative: 'If you end up taking Repulse Shot, having Poseidon on Attack is good since your Repulse Shot will knock foes back. Not only that, but it also unlocks the possibility to go for Rupture Status Curse and taking duo boon for Poseidon and Zeus. Take Chain Shot if you\'re going for this build. <br /> I\'ve also seen people play Artemis and Ares combo for Doom crits.'
+        funAlternative: 'There are some interesting alternatives to this build that are more fun to play, but I chose the Athena one because it\'s super safe. If you want to, you can take Poseidon\'s Dash in order to go for Poseidon and Athena duo boon, which makes you unstunnable and gives you damage resistance against bosses. If you want to focus on damage, go for Zeus attack. If you want to be a nasty person, take Dyonysus Attack, because you can stack it up to 5 in one combo. Demeter\'s Attack is also nice because not only does it do nice damage, but also slows your foes down considerably if you stack it up to 10. If you want to, you can even get the boon that makes your foes explode at 10 stacks, but it\'s more convenient not to do that against bosses, since you will want them to be slow. Crit on Attacks from Artemis is also very viable, there\'s just so much variety with this weapon. Movement Speed focused build with focus on Hermes is also fun to play, too.'
     },
 ]
 
