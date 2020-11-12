@@ -773,7 +773,7 @@ const buildArray = [
     {
         weapon: 'Heart-Seeking Bow',
         title: 'Aspect of Zagreus',
-        playstyle: 'This build is very straight-forward. Dash behind and enemy, unleash point-blank backstab Special, dash away, repeat. It\'s cheesy but it gets the job done, but I promise it\'s not as boring as I make it out to be. This is one of the aspects that a lot of players first won the game with, and that\'s because of how safe it is to poke your enemies from the distance. However, I suggest that you do it in a ballsy manner with the shotgun tactics. There\'s a lot of different ways to play with this aspect, and this one is the most fun in my opinion. By taking Ares for your Special, you practically melt all your foes. And when it comes to bosses - you don\'t even have to aim, just shoot a random Special and there\'s a good chance it will hit, applying Doom stacks. Athena Dash for safety, 2 Daedalus Upgrades for your Special, Hermes Special speed boon and Privileged Status if you want to take a Status Curse for your Attack, Cast or Call in order to take Privileged Status are all nice options.',
+        playstyle: 'This build is very straight-forward. Dash behind a foe, unleash point-blank backstab Special, dash away, repeat. It\'s cheesy but it gets the job done, but I promise it\'s not as boring as I make it out to be. This is one of the aspects that a lot of players first won the game with, and that\'s because of how safe it is to poke your foes from the distance. However, I suggest that you do it in a ballsy manner with the shotgun tactics. There\'s a lot of different ways to play with this aspect, and this one is the most fun in my opinion. By taking Ares for your Special, you practically melt all your foes. And when it comes to bosses - you don\'t even have to aim, just shoot a random Special and there\'s a good chance it will hit, applying Doom stacks. Athena Dash for safety, 2 Daedalus Upgrades for your Special, Hermes Special speed boon and Privileged Status if you want to take a Status Curse for your Attack, Cast or Call in order to take Privileged Status are all nice options.',
         startingKeepsake: 'Take Blood-Filled Vial (Ares\' keepsake) to get his Special early on.',
         mirror: 'As mentioned before, Privileged Status is a good idea, although not mandatory. You could also benefit from taking Shadow Presence for hitting foes from behind.',
         boons: [
@@ -890,7 +890,7 @@ const buildArray = [
                 img: './img/divine-dash.png',
                 prerequisites: 'none',
                 effect: 'Your Dash deals damage and can Deflect.',
-                explaination: 'Not mandatory but highly recommended, will make you safe while repositioning. Also opens up Exposing your enemies, dealing extra Backstab damage, which is nuts in combination with Shadow Presence and your seeking Special that often hits from behind.'
+                explaination: 'Not mandatory but highly recommended, will make you safe while repositioning. Also opens up Exposing your foes, dealing extra Backstab damage, which is nuts in combination with Shadow Presence and your seeking Special that often hits from behind.'
             },
             {
                 name: 'Blinding Flash (Athena)', 
@@ -949,7 +949,7 @@ const buildArray = [
                 img: './img/curse-of-pain.png',
                 prerequisites: 'none',
                 effect: 'Your Special inflicts Doom.',
-                explaination: 'Just like with Zagreus aspect, you will want to shotgun your enemies point black range from the back. After loading Cast on your Attacks and landing your Attacks, dash close to your foes and use your Special.'
+                explaination: 'Just like with Zagreus aspect, you will want to shotgun your foes point black range from the back. After loading Cast on your Attacks and landing your Attacks, dash close to your foes and use your Special.'
             },
             {
                 name: 'Curse of Nausea (Ares & Dionysus Duo)', 
@@ -1010,7 +1010,80 @@ const buildArray = [
             }
         ],
         funAlternative: 'If you search for builds for this aspect, you will find that everyone has their own way to play it. Sure, Trippy Shot is the Cast that deals the most damage, but you can always opt in for Artemis-focused build since she has a lot of built-in support for Cast builds. Going for Demeter and Dionysus duo is good, too. Zeus is helpful, Aphrodite is helpful, there\'s just way too many builds to list here.'
-    }
+    },
+    {
+        weapon: 'Heart-Seeking Bow',
+        title: 'Aspect of Rama',
+        playstyle: 'Rama is the legendary aspect of the bow and as such, it has quite a different gameplay from the rest of the bows. The Attack on it is slow and wide but super powerful, while the Special bounces off of foes and stacks a debuff so that they take extra damage from the Attack. Since the Special bounces off of foes, focusing on Zeus\' Special is the way to go for this aspect. Using Attack is less reliable - it is good for Tartarus, but as the time goes on, you will rely on your Special more. That being said, you can make the Attack more reliable by using Dash Attacks and Doom effects to compensate for not charging the Attack fully. Using Doom effects on the Attack and Lightning effects on your special means that you can go for Privileged Status, which is great.',
+        startingKeepsake: 'Take Thunder Signet (Zeus\' keepsake) to get his Special early.',
+        mirror: 'Privileged Status is good.',
+        boons: [
+            {
+                name: 'Thunder Flourish (Zeus)', 
+                img: './img/thunder-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special causes a lightning bolt to strike nearby foes.',
+                explaination: 'Your Special bounces off of your foes, so it would be smart to take this one. Guarantees very fast clears.'
+            },
+            {
+                name: 'High Voltage (Zeus)', 
+                img: './img/high-voltage.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects deal damage in a larger area.',
+                explaination: 'Anything that powers up your lightning bolts is good.'
+            },
+            {
+                name: 'Static Discharge (Zeus)', 
+                img: './img/static-discharge.png',
+                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
+                effect: 'Your lightning effects also make foes Jolted.',
+                explaination: 'Amazing boon for any Zeus-focused build, also works well with Privileged Status.'
+            },
+            {
+                name: 'Splitting Bolt (Zeus)', 
+                img: './img/splitting-bolt.png',
+                prerequisites: 'Double Strike, High Voltage, or Storm Lightning.',
+                effect: 'All your lightning effects create an additional burst. Lightning Damage: 40.',
+                explaination: 'Zeus\' legendary boon is absolutely bonkers, you\'re gonna want to pick this up.'
+            },
+            {
+                name: 'Curse of Agony (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Attack inflicts Doom.',
+                explaination: 'As mentioned before, taking Doom on Attack will make it deal a lot of damage even if you don\'t get the full charge off. Also works well with Privileged Status.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'The safest Dash in the game, take it if you need safety. Feel free to take something more ballsy if you\'re feeling the flow.'
+            },
+            {
+                name: 'Swift Strike (Hermes)', 
+                img: './img/swift-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack is +X% faster.',
+                explaination: 'Great syngery with your Attack, always get this if possible.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Relentless Volley',
+                img: './img/relentless-volley.png',
+                effect: 'Your Special shoots +4 shots.',
+                explaination: 'Great synergy with your Special, this one will make you clear Encounters in an instant.'
+            },
+            {
+                name: 'Repulse Shot',
+                img: './img/repulse-shot.png',
+                effect: 'Your Celestial Sharanga Attack creates a Blast Wave around you.',
+                explaination: 'If you feel like relying on your Attack more, this makes it safer to execute.'
+            }
+        ],
+        funAlternative: 'If you end up taking Repulse Shot, having Poseidon on Attack is good since your Repulse Shot will knock foes back. Not only that, but it also unlocks the possibility to go for Rupture Status Curse and taking duo boon for Poseidon and Zeus. Take Chain Shot if you\'re going for this build. <br /> I\'ve also seen people play Artemis and Ares combo for Doom crits.'
+    },
 ]
 
 const htmlGenerator = (build) => {
