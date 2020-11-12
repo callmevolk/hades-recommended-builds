@@ -1260,4 +1260,3 @@ const weaponSelect = (weapons) => {
             break;
     }
 }
-
