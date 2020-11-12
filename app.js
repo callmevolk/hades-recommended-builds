@@ -980,8 +980,8 @@ const buildArray = [
                 explaination: 'If you take Stygian Soul Talent from the Mirror, take this one.'
             },
             {
-                name: 'Greater Reload (Hermes)', 
-                img: './img/greater-reload.png', 
+                name: 'Greater Recall (Hermes)', 
+                img: './img/greater-recall.png', 
                 prerequisites: 'Infernal Soul from the Mirror, Flurry Cast, Quick Reload, Auto Reload, or Lambent Plume (Keepsake Ability).',
                 effect: 'Your Cast Ammo automatically return to you.',
                 explaination: 'If you take Infernal Soul Talent from the Mirror, take this one.'
@@ -1014,6 +1014,79 @@ const buildArray = [
     {
         weapon: 'Heart-Seeking Bow',
         title: 'Aspect of Rama',
+        playstyle: 'Rama is the legendary aspect of the bow and as such, it has quite a different gameplay from the rest of the bows. The Attack on it is slow and wide but super powerful, while the Special bounces off of foes and stacks a debuff so that they take extra damage from the Attack. Since the Special bounces off of foes, focusing on Zeus\' Special is the way to go for this aspect. Using Attack is less reliable - it is good for Tartarus, but as the time goes on, you will rely on your Special more. That being said, you can make the Attack more reliable by using Dash Attacks and Doom effects to compensate for not charging the Attack fully. Using Doom effects on the Attack and Lightning effects on your special means that you can go for Privileged Status, which is great.',
+        startingKeepsake: 'Take Thunder Signet (Zeus\' keepsake) to get his Special early.',
+        mirror: 'Privileged Status is good.',
+        boons: [
+            {
+                name: 'Thunder Flourish (Zeus)', 
+                img: './img/thunder-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special causes a lightning bolt to strike nearby foes.',
+                explaination: 'Your Special bounces off of your foes, so it would be smart to take this one. Guarantees very fast clears.'
+            },
+            {
+                name: 'High Voltage (Zeus)', 
+                img: './img/high-voltage.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects deal damage in a larger area.',
+                explaination: 'Anything that powers up your lightning bolts is good.'
+            },
+            {
+                name: 'Static Discharge (Zeus)', 
+                img: './img/static-discharge.png',
+                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
+                effect: 'Your lightning effects also make foes Jolted.',
+                explaination: 'Amazing boon for any Zeus-focused build, also works well with Privileged Status.'
+            },
+            {
+                name: 'Splitting Bolt (Zeus)', 
+                img: './img/splitting-bolt.png',
+                prerequisites: 'Double Strike, High Voltage, or Storm Lightning.',
+                effect: 'All your lightning effects create an additional burst. Lightning Damage: 40.',
+                explaination: 'Zeus\' legendary boon is absolutely bonkers, you\'re gonna want to pick this up.'
+            },
+            {
+                name: 'Curse of Agony (Ares)', 
+                img: './img/curse-of-pain.png',
+                prerequisites: 'none',
+                effect: 'Your Attack inflicts Doom.',
+                explaination: 'As mentioned before, taking Doom on Attack will make it deal a lot of damage even if you don\'t get the full charge off. Also works well with Privileged Status.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'The safest Dash in the game, take it if you need safety. Feel free to take something more ballsy if you\'re feeling the flow.'
+            },
+            {
+                name: 'Swift Strike (Hermes)', 
+                img: './img/swift-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack is +X% faster.',
+                explaination: 'Great syngery with your Attack, always get this if possible.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Relentless Volley',
+                img: './img/relentless-volley.png',
+                effect: 'Your Special shoots +4 shots.',
+                explaination: 'Great synergy with your Special, this one will make you clear Encounters in an instant.'
+            },
+            {
+                name: 'Repulse Shot',
+                img: './img/repulse-shot.png',
+                effect: 'Your Celestial Sharanga Attack creates a Blast Wave around you.',
+                explaination: 'If you feel like relying on your Attack more, this makes it safer to execute.'
+            }
+        ],
+        funAlternative: 'If you end up taking Repulse Shot, having Poseidon on Attack is good since your Repulse Shot will knock foes back. Not only that, but it also unlocks the possibility to go for Rupture Status Curse and taking duo boon for Poseidon and Zeus. Take Chain Shot if you\'re going for this build. <br /> I\'ve also seen people play Artemis and Ares combo for Doom crits.'
+    },
+    {
+        weapon: 'Twin Fists of Malphon',
+        title: 'Aspect of Zagreus',
         playstyle: 'Rama is the legendary aspect of the bow and as such, it has quite a different gameplay from the rest of the bows. The Attack on it is slow and wide but super powerful, while the Special bounces off of foes and stacks a debuff so that they take extra damage from the Attack. Since the Special bounces off of foes, focusing on Zeus\' Special is the way to go for this aspect. Using Attack is less reliable - it is good for Tartarus, but as the time goes on, you will rely on your Special more. That being said, you can make the Attack more reliable by using Dash Attacks and Doom effects to compensate for not charging the Attack fully. Using Doom effects on the Attack and Lightning effects on your special means that you can go for Privileged Status, which is great.',
         startingKeepsake: 'Take Thunder Signet (Zeus\' keepsake) to get his Special early.',
         mirror: 'Privileged Status is good.',
