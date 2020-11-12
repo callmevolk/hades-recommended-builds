@@ -987,8 +987,8 @@ const buildArray = [
                 explaination: 'If you take Infernal Soul Talent from the Mirror, take this one.'
             },
             {
-                name: 'Auto Reload (Hermes)', 
-                img: './img/auto-reload.png', 
+                name: 'Bad News (Hermes)', 
+                img: './img/bad-news.png', 
                 prerequisites: 'Stygian Soul from the Mirror, Auto Reload or Lambent Plume (Keepsake Ability)',
                 effect: 'Your cast deals more damage to foes without Cast Ammo on them. First shot damage: +50%.',
                 explaination: 'If you take Stygian Soul Talent from the Mirror, take this one.'
@@ -1148,8 +1148,89 @@ const buildArray = [
                 explaination: 'It\'s not too important that you get this since you\'re already very safe, but it\'s a nice addition to your arsenal.'
             }
         ],
-        funAlternative: 'There are some interesting alternatives to this build that are more fun to play, but I chose the Athena one because it\'s super safe. If you want to, you can take Poseidon\'s Dash in order to go for Poseidon and Athena duo boon, which makes you unstunnable and gives you damage resistance against bosses. If you want to focus on damage, go for Zeus attack. If you want to be a nasty person, take Dyonysus Attack, because you can stack it up to 5 in one combo. Demeter\'s Attack is also nice because not only does it do nice damage, but also slows your foes down considerably if you stack it up to 10. If you want to, you can even get the boon that makes your foes explode at 10 stacks, but it\'s more convenient not to do that against bosses, since you will want them to be slow. Crit on Attacks from Artemis is also very viable, there\'s just so much variety with this weapon. Movement Speed focused build with focus on Hermes is also fun to play, too.'
+        funAlternative: 'There are some interesting alternatives to this build that are more fun to play, but I chose the Athena one because it\'s super safe. If you want to, you can take Poseidon\'s Dash in order to go for Poseidon and Athena duo boon, which makes you unstunnable and gives you damage resistance against bosses. If you want to focus on damage, go for Zeus attack. If you want to be a nasty person, take Dionysus Attack, because you can stack it up to 5 in one combo. Demeter\'s Attack is also nice because not only does it do nice damage, but also slows your foes down considerably if you stack it up to 10. If you want to, you can even get the boon that makes your foes explode at 10 stacks, but it\'s more convenient not to do that against bosses, since you will want them to be slow. Crit on Attacks from Artemis is also very viable, there\'s just so much variety with this weapon. Movement Speed focused build with focus on Hermes is also fun to play, too.'
     },
+    {
+        weapon: 'Twin Fists of Malphon',
+        title: 'Aspect of Talos',
+        playstyle: 'Talos is a very fun aspect to play. The gist of the weapon is that you can pull your foes in with your Special and then deal extra damage to them with your Attack and Cast for the next 4 seconds, which makes it a decent aspect for playing a more Cast-focused build. Getting Ares\' Blade Rifts out while you pull your foe toward you pretty much guarantees that you\'re going to hit them, so that\'s a nice thing to have in your arsenal. For Special, you\'re going to take Poseidon, because it\'s safe and deals nice damage. You will pull your foes in and immediately knock them away thanks to Poseidon\'s Special. Then you will unleash your Cast on them and you\'re free to Dash behind them and pummel them with Attacks (take whatever you want for it). Pretty nutty, right?',
+        startingKeepsake: 'Take Blood-Filled Vial (Ares\' keepsake) to get his Cast early, or take Conch Shell (Poseidon\'s keepsake) to get his Special early. Your choice.',
+        mirror: 'Take Infernal Soul to enable Hermes\' Flurry Cast, or take Stygian Soul to enable Hermes\' Bad News. Take Privileged Status if you\'re going to have 2 or more Status Curses.',
+        boons: [
+            {
+                name: 'Tempest Flourish (Poseidon)', 
+                img: './img/tempest-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special deals more damage and knocks foes away.',
+                explaination: 'As mentioned earlier, this one is very useful in combination with this aspect\'s effect, keeping you safe while pulling foes in and dishing out decent damage.'
+            },
+            {
+                name: 'Slicing Shot (Ares)', 
+                img: './img/slicing-shot.png',
+                prerequisites: 'none',
+                effect: 'Your Cast sends a Blade Rift hurling ahead.',
+                explaination: 'Since you will pull your foes toward you, you\'re pretty much guaranteed to land this, leaving you free to Dash behind and Attack your foes.'
+            },
+            
+            {
+                name: 'Blade Dash (Ares)', 
+                img: './img/blade-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash creates a Blade Rift where you started.',
+                explaination: 'Since you will be Dashing straight through your foes, this is a nice thing to have.'
+            },
+            {
+                name: 'Black Metal (Ares)', 
+                img: './img/black-metal.png',
+                prerequisites: 'Ares\' Aid, Blade Dash, Slicing Flare, or Slicing Shot.',
+                effect: 'Your Blade Rift powers deal damage in a wider area.',
+                explaination: 'Pretty self-explainatory, take this for extra damage.'
+            },
+            {
+                name: 'Engulfing Vortex (Ares)', 
+                img: './img/engulfing-vortex.png',
+                prerequisites: 'Ares\' Aid, Blade Dash, Slicing Flare, or Slicing Shot.',
+                effect: 'Your Blade Rift effects last longer and pull foes in.',
+                explaination: 'This is essential for the build, take it as soon as possible.'
+            },
+            {
+                name: 'Vicious Cycle (Ares)', 
+                img: './img/vicious-cycle.png',
+                prerequisites: 'Black Metal or Engulfing Vortex',
+                effect: 'Your Blade Rift effects deal more damage for each consecutive hit. Damage Increase per Hit: 2.',
+                explaination: 'As this boon is legendary, it\'s not mandatory that you take it. However, if you do, you\'re going to be thankful.'
+            },
+            {
+                name: 'Flurry Cast (Hermes)',
+                img: './img/flurry-cast.png',
+                prerequisites: 'Infernal Soul from the Mirror',
+                effect: 'Your Cast is +X% faster and fully automatic.',
+                explaination: 'Pretty useful since you will use your Cast as soon as you pull your foes in with your Special.'
+            },
+            {
+                name: 'Bad News (Hermes)', 
+                img: './img/bad-news.png', 
+                prerequisites: 'Stygian Soul from the Mirror, Auto Reload or Lambent Plume (Keepsake Ability)',
+                effect: 'Your cast deals more damage to foes without Cast Ammo on them. First shot damage: +50%.',
+                explaination: 'If you take Stygian Soul Talent from the Mirror, take this one.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Long Knuckle',
+                img: './img/long-knuckle.png',
+                effect: 'Your Attack has more range and deals +10% damage.',
+                explaination: 'More range and more damage, what\'s there not to like?'
+            },
+            {
+                name: 'Rolling Knuckle',
+                img: './img/draining-cutter.png',
+                effect: 'Your Dash-Strike deals +60% damage; added to Attack sequence.',
+                explaination: 'Nice addition to your already decent damage output.'
+            }
+        ],
+        funAlternative: 'There\'s a lot of interesting variations with this one, just like the Zagreus aspect. You can take Dionysus on Attack to stack it to 5 to deal very nice damage, same for Demeter. Taking Artemis on Special or Attack allows your Blade Rifts from Ares to be even better, so you might want to consider playing something like that, as well.'
+    }
 ]
 
 const htmlGenerator = (build) => {
