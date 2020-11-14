@@ -1338,7 +1338,136 @@ const buildArray = [
             }
         ],
         funAlternative: 'You can play this boon with Aphrodite\'s Attack and Artemis\' Special, which will do ridiculous damage if it Crits and if you have their duo boon. Using Special after stacking your passive while having Dionysus on your Special is a pretty nice way to stack his Hangover to max stacks, so you might go for that build, too.'
-    }
+    },
+    {
+        weapon: 'Twin Fists of Malphon',
+        title: 'Aspect of Gilgamesh',
+        playstyle: 'Easily one of the most unique aspects in the game, this aspect unlocks a lot of fun Dash-focused builds. Your Special can mark foes with Maim, which gives you additional damage toward them and, 2 bonus dashes and 400 flat damage after some time. The downside is that you take extra damage from Maimed foes, but taking Ruthless Reflex gives you 50% dodge chance on your Dashes, and you get 2 Dashes for free from the aspect as mentioned before. Not only that, but you can hold your Dash button to Dash repeatedly. <br /> The build relies on Poseidon\'s Dash and boons that complement it. Gilgamesh has a high base damage on its Attack, and taking Zeus is only going to make it feel stronger. It will also allow you to go for his duo boon with Poseidon, which will break the game wide open once you get those Poseidon boons I mentioned.',
+        startingKeepsake: 'Take Conch Shell (Poseidon\'s keepsake) to get his Dash as soon as possible. Thunder Signet (Zeus\'s keepsake) is good for Asphodel to get your build going',
+        mirror: 'Take Ruthless Reflex because you get 2 additional Dashes with the aspect as-is. Take Privileged Status if you think you\'re gonna deal both Ruptured and Jolted damage.',
+        boons: [
+            {
+                name: 'Tidal Dash (Poseidon)',
+                img: './img/tidal-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash damages foes in an area and knocks them away.',
+                explaination: 'Dashing will be your main damage output, so take this one.'
+            },
+            {
+                name: 'Razor Shoals (Poseidon)', 
+                img: './img/razor-shoals.png',
+                prerequisites: 'Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
+                effect: 'Using knock-away effects also Rupture foes.',
+                explaination: 'Take this in order to apply Poseidon\'s Status Curse, which will help you get the most use out of Privileged Status.'
+            },
+            {
+                name: 'Wave Pounding (Poseidon)',
+                img: './img/wave-pounding.png',
+                prerequisites: 'Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
+                effect: 'Your boons with Knock-Away effects deal bonus damage to bosses.',
+                explaination: 'Great for beating the shit out of your dad.'
+            },
+            {
+                name: 'Typhoon\'s Fury (Poseidon)',
+                img: './img/typhoons-fury.png',
+                prerequisites: 'Tempest Strike, Tidal Dash, Flood Shot, Tempest Flourish, or Poseidon\'s Aid.',
+                effect: 'You deal more damage when slamming foes into barriers.',
+                explaination: 'You mainly want this one in order to unlock Poseidon\'s Legendary boon.'
+            },
+            {
+                name: 'Second Wave (Poseidon)',
+                img: './img/second-wave.png',
+                prerequisites: 'One of each: <br /> Breaking Wave or Typhoon\'s Fury. <br /> Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash.',
+                effect: 'Your knock-away effects shove foes a second time after the first.',
+                explaination: 'Huuuuuge boon, although very hard to get.'
+            },
+            {
+                name: 'Divine Flourish (Athena)', 
+                img: './img/divine-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special is stronger, and can Deflect.',
+                explaination: 'I like getting this one in order to apply Maimed safely, but you don\'t have to get it if you don\'t want to.'
+            },
+            {
+                name: 'Lightning Strike (Zeus)', 
+                img: './img/lightning-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack emits chain-lightning when you damage a foe.',
+                explaination: 'We\'re gonna go for Zeus and Poseidon combo, so taking this as your Attack is recommended.'
+            },
+            {
+                name: 'Storm Lightning (Zeus)', 
+                img: './img/storm-lightning.png',
+                prerequisites: 'Electric Shot or Lightning Strike.',
+                effect: 'Your chain-lightning effects bounce more times before expiring.',
+                explaination: 'Not a mandatory pick-up, but pretty good if you can get it.'
+            },
+            {
+                name: 'Zeus\' Aid (Zeus)', 
+                img: './img/zeus-aid.png',
+                prerequisites: 'none',
+                effect: 'Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.',
+                explaination: 'If you want boons from Zeus that amplify your lightning bolts, you will have to take either this for your Call or Thunder Flourish for your Special.'
+            },
+            {
+                name: 'High Voltage (Zeus)', 
+                img: './img/high-voltage.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects deal damage in a larger area.',
+                explaination: 'Nice pick-up if available.'
+            },
+            {
+                name: 'Double Strike (Zeus)', 
+                img: './img/double-strike.png',
+                prerequisites: 'Thunder Dash, Thunder Flourish, or Zeus\' Aid',
+                effect: 'Your lightning bolt effects have a chance to strike twice.',
+                explaination: 'Unreliable, but when it hits it\'s really useful.'
+            },
+            {
+                name: 'Static Discharge (Zeus)', 
+                img: './img/static-discharge.png',
+                prerequisites: 'Thunder Flourish, Zeus\' Aid, Thunder Dash, Heaven\'s Vengeance, Lightning Strike, Electric Shot, or Lightning Reflexes.',
+                effect: 'Your lightning effects also make foes Jolted.',
+                explaination: 'Super important boon, prioritize it over all other Zeus boons.'
+            },
+            {
+                name: 'Sea Storm (Poseidon & Zeus Duo)', 
+                img: './img/sea-storm.png', 
+                prerequisites: 'One of each of these Poseidon and Zeus boons: <br />Poseidon: Flood Shot, Poseidon\'s Aid, Tempest Flourish, Tempest Strike, or Tidal Dash. <br />Zeus: Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, or Zeus\' Aid.',
+                effect: 'Your knock-away effects also cause foes to be struck by lightning. Lightning Damage 40.',
+                explaination: 'The run-winner, this boon will allow you to just hold your Dash button and win. Simple as that.'
+            },
+            {
+                name: 'Greatest Reflex (Hermes)', 
+                img: './img/hyper-sprint.png',
+                prerequisites: 'none',
+                effect: 'You can Dash +X more time(s) in a row.',
+                explaination: 'Extra Dashes = extra damage.'
+            },
+            {
+                name: 'Hyper Sprint (Hermes)', 
+                img: './img/hyper-sprint.png',
+                prerequisites: 'none',
+                effect: 'For X seconds after you Dash, become Sturdy and run +100% faster.',
+                explaination: 'If you\'re gonna Dash a lot, might as well pick this up for extra safety.'
+            },
+        ],
+        daedalus: [
+            {
+                name: 'Rending Claws',
+                img: './img/rending-claws.png',
+                effect: 'Maim-afflicted foes take +25% damage and move 30% slower.',
+                explaination: 'As with every hidden aspect Daedalus Upgrade, it is recommended that you always take it.'
+            },
+            {
+                name: 'Rolling Knuckle',
+                img: './img/draining-cutter.png',
+                effect: 'Your Dash-Strike deals +60% damage; added to Attack sequence.',
+                explaination: 'You will Dash-Strike all the time, so give this one a go.'
+            }
+        ],
+        funAlternative: 'Athena Dash and Ares Attack and their duo is one fun way to play this build. Other than that, you can go for a safe build like Athena and Demeter combo to get Stubborn Roots.'
+    },
 ]
 
 const htmlGenerator = (build) => {
