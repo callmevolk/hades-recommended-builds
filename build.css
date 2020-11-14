@@ -49,8 +49,8 @@
 
 .boon__img {
     display: inline-block;
-    width: 120px;
-    height: auto;
+    width: 120px !important;
+    height: 120px !important;
 }
 
 .boon__text {
