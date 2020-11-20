@@ -587,10 +587,10 @@ const buildArray = [
         mirror: 'Since both Ares and Dionysus apply Status Curses with the boons you want from them, take Privileged Status.',
         boons: [
             {
-                name: 'Drunken Flourish (Dionysus)', 
-                img: './img/drunken-flourish.png',
+                name: 'Drunken Strike (Dionysus)', 
+                img: './img/drunken-strike.png',
                 prerequisites: 'none',
-                effect: 'Your Special inflicts Hangover.',
+                effect: 'Your Attack inflicts Hangover.',
                 explaination: 'You will want your Attacks to apply Hangover in order to deal as much damage as possible. Also allows you to unlock duo boon for him and Ares.'
             },
             {
@@ -1467,6 +1467,72 @@ const buildArray = [
             }
         ],
         funAlternative: 'Athena Dash and Ares Attack and their duo is one fun way to play this build. Other than that, you can go for a safe build like Athena and Demeter combo to get Stubborn Roots.'
+    },
+    {
+        weapon: 'Adamant Rail',
+        title: 'Aspect of Zagreus',
+        playstyle: 'Since this weapon relies on your Attacks for the damage, you will want to take something that can stack a Status Curse. For this build, you\'re going to take Demeter for Attack, focusing mainly on her boons. In order to maximize your damage, it is important that you take a Daedalus Upgrade that will make your Special more useful, as it will stack Status Curses in combination with your Attacks, which will help you get the most use out of Privileged Status.',
+        startingKeepsake: 'Take Frostbitten Horn (Demeter\'s keepsake) to get Demeter\'s Attack early. You can switch it out for Athena\'s keepsake if you want to go maximum safety route and get her Dash ASAP.',
+        mirror: 'As mentioned before, Privileged Status will help you tons.',
+        boons: [
+            {
+                name: 'Frost Strike (Demeter)', 
+                img: './img/frost-strike.png',
+                prerequisites: 'none',
+                effect: 'Your Attack is stronger and inflicts Chill.',
+                explaination: 'Chill works very well with this weapon in general, slowing down your foes, while also dealing tons of damage in combination with other Demeter boons.'
+            },
+            {
+                name: 'Arctic Blast (Demeter)', 
+                img: './img/arctic-blast.png',
+                prerequisites: 'Demeter\'s Aid, Frost Flourish, Frost Strike, Mistral Dash, or Snow Burst.',
+                effect: 'Applying 10 stacks of Chill causes a blast, clearing the effect.',
+                explaination: 'While this boon increases your damage output, sometimes I prefer not taking it because I want to keep 10 stacks on my foes, especially bosses. It\'s up to personal taste with this one.'
+            },
+            {
+                name: 'Killing Freeze (Demeter)', 
+                img: './img/killing-freeze.png',
+                prerequisites: 'Demeter\'s Aid, Frost Flourish, Frost Strike, Mistral Dash, or Snow Burst.',
+                effect: 'Applying Chill to all enemies causes them to Slow and Decay.',
+                explaination: 'Pretty self-explainatory, works wonders against bosses.'
+            },
+            {
+                name: 'Drunken Flourish (Dionysus)', 
+                img: './img/drunken-flourish.png',
+                prerequisites: 'none',
+                effect: 'Your Special inflicts Hangover.',
+                explaination: 'You will be using this primarily to get Privileged Status stacks.'
+            },
+            {
+                name: 'Divine Dash (Athena)', 
+                img: './img/divine-dash.png',
+                prerequisites: 'none',
+                effect: 'Your Dash deals damage and can Deflect.',
+                explaination: 'Take this if you want to be super safe, or something that can help with applying Privileged Status if you\'re more daring.'
+            },
+            {
+                name: 'Support Fire (Artemis)', 
+                img: './img/support-fire.png',
+                prerequisites: 'Artemis\' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, or True Shot.',
+                effect: 'After you Cast, or hit with an Attack or Special, fire a seeking arrow.',
+                explaination: 'This boon works wonderfully with your Attacks. If you see an Artemis pick-up, make sure you take this boon.'
+            }
+        ],
+        daedalus: [
+            {
+                name: 'Rocket Bomb',
+                img: './img/rocket-bomb.png',
+                effect: 'Your Special is replaced with a rocket that deals 80 base damage.',
+                explaination: 'Not mandatory, but it will help out with hitting your Special more reliably, especially if you\'re playing with a controller. Cluster Bomb is a good alternative, too, since it helps stack your Hangover stacks faster.'
+            },
+            {
+                name: 'Flurry Fire',
+                img: './img/flurry-fire.png',
+                effect: 'Your Attack is faster and more accurate; gain +6 ammo capacity.',
+                explaination: 'My favorite Attack-empowering Daedalus Upgrade simply because it helps you stack Chill faster.'
+            }
+        ],
+        funAlternative: 'If you really want to maximize damage, put Zeus on Attack instead of Demeter. Another alternative is doing Dionysus on Attack instead of Demeter. It\'s pretty open with the combinations, actually, but I\'d most recommend sticking to the Privileged Status tactics.'
     },
 ]
 
